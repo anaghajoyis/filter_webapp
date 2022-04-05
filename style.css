@@ -1,0 +1,23 @@
+h3{
+    background-color: palevioletred;
+    color: purple;
+    font-size: 50px !important;
+}
+#but-snap{
+    background-color: rgb(255, 1, 86);
+    color: rgb(253, 127, 253);
+    font-size: 20px !important;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px black;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px purple;}
+    25% {box-shadow: 1px 1px 38px blue;}
+    50% {box-shadow: 1px 1px 38px rgb(250, 106, 130);}
+    75% {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow:1px 1px 38px purple;}
+}
