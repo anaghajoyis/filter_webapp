@@ -15,9 +15,9 @@ canvas{
     border: 3px black;
 }
 @keyframes example{
-    from {box-shadow: 1px 1px 38px purple;}
-    25% {box-shadow: 1px 1px 38px blue;}
-    50% {box-shadow: 1px 1px 38px rgb(250, 106, 130);}
-    75% {box-shadow: 1px 1px 38px blue;}
-    to {box-shadow:1px 1px 38px purple;}
+    from {box-shadow: 10px 1px 38px purple;}
+    25% {box-shadow: 10px 1px 38px blue;}
+    50% {box-shadow: 10px 1px 38px rgb(250, 106, 130);}
+    75% {box-shadow: 10px 1px 38px blue;}
+    to {box-shadow:10px 1px 38px purple;}
 }
